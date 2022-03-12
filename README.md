@@ -34,6 +34,12 @@ To get the login history with the ip of users
 http://127.0.0.1:8000/uniacco/userhistory
 
 
+Now application can be accesed on 
+https://django-sign.herokuapp.com/uniacco/signin/
+https://django-sign.herokuapp.com/uniacco/register/
+https://django-sign.herokuapp.com/uniacco/users/
+https://django-sign.herokuapp.com/uniacco/register/
+https://django-sign.herokuapp.com/uniacco/userhistory/
 
 
 
