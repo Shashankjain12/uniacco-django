@@ -67,7 +67,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
-    'uniacco_api.apps.UniaccoApiConfig'
+    'uniacco_api.apps.UniaccoApiConfig',
+    'import_export'
 ]
 
 REST_FRAMEWORK = {
