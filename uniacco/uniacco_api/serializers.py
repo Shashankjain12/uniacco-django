@@ -78,8 +78,7 @@ class UserLoginSerializer(serializers.Serializer):
         username = data.get("username", None)
         password = data.get("password", None)
         # To send the username and ip address of the user trying to use our authenticate api
-        hostname=socket.gethostname()   
-        IPAddr=socket.gethostbyname(hostname) 
+        IPAddr = requests.get("https://api.ipify.org").text
         data = {'user':username,'ip':IPAddr}
         cli_res = requests.post("https://encrusxqoan0b.x.pipedream.net/", data= json.dumps(data))
         
